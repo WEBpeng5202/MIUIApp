@@ -1,0 +1,327 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-size: .2rem;
+	font-family: "苹方";
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+input{
+	border: none;
+	outline: none;
+}
+img,a{
+	display: block;
+	text-decoration: none;
+}
+body{
+	background: #f0f1f5;
+	max-width: 6.4rem;
+}
+
+.wrap{
+	width: 6.4rem;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+/*顶部*/
+.header{
+	width:6.4rem;
+	height: .6rem;
+	padding: .14rem 0;
+	background: #ca0000;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	position: fixed;
+	top: 0;
+	z-index: 999;
+}
+.header .sys{
+	width: 1.14rem;
+	height: .58rem;
+}
+.header .sys img,.header .mail img{
+	width: 1.14rem;
+	height: .58rem;
+	display: block;
+}
+.header .sys a,.header .mail a{
+	display: block;
+	width: 1.14rem;
+	height: .58rem;
+}
+.header .search{
+	width: 4.12rem;
+	height: .58rem;
+	background: #fff;
+	border:.01rem solid #ccc;
+	border-radius: .08rem;
+	display: flex;
+}
+.header .search i{
+	width: .28rem;
+	height: .28rem;
+	font-size: .28rem;
+	margin-top: .1rem;
+	margin-left: .15rem;
+	color: #c0c0c0;
+}
+.header .search input{
+	display: block;
+	height: .57rem;
+	color: #c0c0c0;
+	font-size: .24rem;
+}
+
+.header .mail{
+	width: 1.14rem;
+	height: .58rem;
+}
+/*顶部*/
+/*标签*/
+.nav{
+	width: 6.4rem;
+	height: .48rem;
+	background: #ca0000;
+	overflow: hidden;
+	margin-top: -.48rem;
+	position: fixed;
+	z-index: 999;
+}
+.nav .dot{
+	height: .04rem;
+	width: .88rem;
+	background: #ffcc1d;
+	margin-left: .11rem;
+}
+.nav ul{
+	width: 6.6rem;
+	height: .44rem;
+
+}
+.nav ul .active{
+	color: #ffcc1d;
+}
+.nav ul li{
+	width: 1.1rem;
+	height: .44rem;
+	float: left;
+	list-style: none;
+	text-align: center;
+	line-height: .44rem;
+}
+.nav ul li a{
+	font-size: .26rem;
+	width: 1.1rem;
+	height: .44rem;
+	color: #fef7f7;
+}
+/*标签*/
+
+/*CONTENT*/
+	/*banner*/
+.content{
+	margin-top: 1.36rem;
+}
+.content .banner img{
+	width: 6.4rem;
+	height: 3.2rem;
+}
+.content .banner a{
+	display: block;
+	height: 3.2rem;
+}
+.content .banner_bottom{
+	height: 1.36rem;
+	width: 100%;
+	background: #b40000;
+	display: flex;
+
+}
+.content .banner_bottom .item a{
+	display: block;
+	width: 20%;
+	height: 1.36rem;
+}
+.content .banner_bottom .items img{
+	height: 1.36rem;
+	width: 1.28rem;
+}
+.content .adv img{
+	height: 1.38rem;
+	width: 6.4rem;
+}
+.content .adv{
+	margin-bottom: .1rem;
+}
+
+	/*banner*/
+	/*card*/
+.content .cd{
+	width: 6.16rem;
+	height: 5.46rem;
+	background: #fff;
+	margin-left: .12rem;
+	margin-bottom: .12rem;
+}	
+.content .cd a{
+	display: block;
+	width: 6.16rem;
+	height: 3.86rem;
+	color: rgba(0,0,0,.87);
+}
+.content .cd a img{
+	width: 6.16rem;
+	height: 3.86rem;
+}
+.content .cd a .txt{
+	padding: .2rem .27rem;
+}
+.content .cd a .txt .top{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-basis;
+}
+.content .cd a .txt .top .left{
+	font-size: .28rem;
+}	
+.content .cd a .txt .top .right{
+	font-size: .32rem;
+	color: #ff6000;
+}
+.content .cd a .txt .bottom{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: .06rem;
+}
+.content .cd a .txt .bottom .brief{
+	font-size: .22rem;
+	color: rgba(0,0,0,.54);
+}
+.content .cd a .txt .bottom .buy{
+	font-size: .24rem;
+	color: #fff;
+	background: #ff4a48;
+	text-align: center;
+	padding: .14rem 0;
+	font-weight: 700;
+	border-radius: .05rem;
+	width: 2rem;
+}
+.content .card a .img{
+	position: relative;
+	left: 0;
+	top: 0;
+}
+.content .card a .img .img_small{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+.content .card a .img .img_small img{
+	width: 1rem;
+	height: 1rem;
+}
+.content .cd_small{
+	width: 6.16rem;
+	background: #fff;
+	margin-left: .12rem;
+	display: flex;
+	justify-content: space-between;
+}
+.content .cd_small a{
+	width: 3.02rem;
+	display: block;
+}
+.content .cd_small a img{
+	width: 3.02rem;
+	display: block;
+}
+.content .cd_small a .txt{
+	 padding: .2rem .27rem;
+}
+.content .cd_small a .txt .top .left{
+	font-size: .26rem;
+	color: rgba(0,0,0,.87);
+	text-align: center;
+}
+.content .cd_small a .txt .top .brief{
+	font-size: .22rem;
+	color: rgba(0,0,0,.54);
+	text-align: center;
+	margin-top: .04rem;
+}
+.content .cd_small a .txt .bottom .right{
+	font-size: .32rem;
+	color: #ff6000;
+	text-align: center;
+	margin-top: .05rem;
+}
+.content .cd_small a .txt .bottom .right del{
+	color: rgba(0,0,0,.54);
+}
+.content .cd_small a .txt .bottom .buy{
+	font-size: .24rem;
+	color: #fff;
+	background: #ff4a48;
+	text-align: center;
+	padding: .14rem 0;
+	font-weight: 700;
+	border-radius: .05rem;
+	width: 2rem;
+	margin: 0 auto;
+}
+
+	/*card*/
+/*TAB*/
+.tab{
+	width: 6.4rem;
+	height: .97rem;
+	border-top:.01rem solid #e1e1e1;
+	background: #fff;
+	position: fixed;
+	bottom: 0;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.tab div{
+	width:.6rem;
+	height: .4rem; 
+	margin-top: -.2rem;
+	text-align: center;
+	color: #999
+}
+.tab div a{
+	width: .4rem;
+	height: .4rem;
+	display: block;
+	margin: 0 auto;
+}
+.tab .shouye{
+	color: #F56B01;
+}
+.tab .shouye a{
+	background: url(../img/spr1_5b2e09c.png) 0 -5.62rem;
+	background-size: .4rem;
+	/*margin-left: .34rem;*/
+}
+.tab .list a{
+	background: url(../img/spr1_5b2e09c.png) 0 -0.4rem;
+	background-size: .4rem;
+}
+.tab .find a{
+	background: url(../img/find.png) no-repeat;
+	background-size: .4rem;
+}
+.tab .shop a{
+	background: url(../img/spr1_5b2e09c.png) 0 -1.2rem;
+	background-size: .4rem;
+}
+.tab .user a{
+	background: url(../img/spr1_5b2e09c.png) 0 -2rem;
+	background-size: .4rem;
+}
+/*TAB*/
